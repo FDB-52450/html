@@ -1,0 +1,50 @@
+2a) El segmento de código es un comentario, que se puede poner en cualquier parte del documento para poder
+escribir información que el desarrollador considere importante. No tiene efecto visual en la página web, y
+no posee ningún atributo u etiqueta.
+
+b) El segmento de código define un elemento de tipo <div>, el cual establece una sección o división dentro
+del documento. Tiene un atributo id, que sirve como un identificador único de un elemento, y posee texto 
+que se muestra en la página web. 
+  El elemento <div> no necesita ningún atributo para poder ser visualizado en la página web, pero si 
+necesita texto. El elemento se ubica en el elemento <body> del documento.
+
+c) El segmento de código define un elemento de tipo <img>, el cual se utiliza para mostrar imágenes. Tiene
+los siguientes atributos: src, el link a donde se almacena la imagen (en este caso esta vacío, por lo que
+no muestra una imagen); alt, un texto alternativo a la imagen (en caso de que la misma no funcione); id 
+(ya explicado en 2b); name, similar a la id pero con algunas diferencias (por ejemplo, múltiples elementos 
+pueden tener el mismo name); width y height, que determinan el alto y el ancho de la imagen; y longdesc, 
+un link a una explicación de la imagen. 
+  El elemento <img> necesita al menos el atributo src o el atributo alt para poder ser visualizado en una
+página web. El elemento se ubica en el elemento <body> del documento.
+
+d) El primer segmento de código define un elemento de tipo <meta>, el cual se utiliza generalmente para
+describir información sobre el documento a los navegadores de búsqueda. Posee los atributos: name; el
+nombre del metadato; lang, el idioma en el que está escrito el metadato; y content, el contenido que
+posee el metadato.
+  El segundo segmento de código es similar al primer segmento, pero no posee el atributo lang y el atributo
+name es reemplazado por el atributo http-equiv, el cual permite modificar información sobre los encabezados
+de http que manda el documento.
+  El primer segmento establece keywords, que informan al navegador sobre que es la página, mientras que el
+segundo segmento establece una "fecha de expiración", que determina cuando el navegador debe refrescar el
+cache que posee sobre la página.
+  El elemento <meta> requiere de un atributo de tipo name o http-equiv, y de un atributo de tipo content.
+Ambos se ubican en el elemento <head> del documento.
+
+e) El segmento de código define un elemento de tipo <a>, el cual define un hipervínculo (un link a otra
+pagina). Sus atributos son: href, el más importante ya que este mismo indica el link al que el elemento
+redirecciona; type, el tipo de documento linkeado; hreflang, el idioma del documento linkeado; charset,
+el set de caracteres a utilizar; y rel, que establece la relación entre el documento actual y el documento
+linkeado.
+  El hipervínculo se encuentra contenido dentro del texto, el cual es necesario para que el hipervínculo
+pueda ser clickeado. El elemento se ubica en el elemento <body> del documento.
+
+f) El segmento define un elemento de tipo <table>, el cual se utiliza para crear tablas. En este caso,
+utiliza los parámetros width (para definir su longitud) y summary (no funciona ya que necesita de otro
+elemento, details). Dentro del elemento <table> se definen los elementos <caption>, que sirve para darle
+un título visible a la table (se utiliza un atributo align para alinear el elemento en la parte de arriba);
+y los elementos <tr>, que se utilizan para definir cada fila de la tabla.
+  La primera fila posee todos elementos <th>, que se utiliza para definir los encabezados de las columnas;
+el atributo scope se utiliza para definir si es un encabezado de fila o de columna. La segunda fila y
+tercera fila están definidas por un <th> y tres <td>, que se utilizan para definir los datos de cada celda
+de la fila. Se utiliza la palabra "&nbsp;" para mostrar un espacio vacío en la celda.
+  El elemento se ubica en el elemento <body> del documento.

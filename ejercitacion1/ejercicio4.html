@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+            .test, .test th, .test td {
+                border: 1px solid black;
+            }
+            .test th, .test td {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            #consultabox {
+                height: 50px;
+                line-height: 50px;
+            }
+            body {
+                font-family: Arial, sans-serif;
+            }
+        </style>
+        <title>Ejercicio 4</title>
+    </head>
+
+    <body>
+        <h1>
+            <a href="https://frro.cvg.utn.edu.ar/">
+                <img src="logo-utn.png" alt="UTN logo" width="400" height="80">
+            </a>
+        </h1>
+
+        <hr size="3" color="black">
+
+        <h2>
+            <p align="left">
+                <font size="8"><b>AÑO 2008</b></font>
+            </p>
+        </h2>
+
+        <table class="test">
+            <tr align="center">
+                <th colspan="2">Examenes</th>
+            </tr>
+            <tr align="center">
+                <td id="fecha-mod" rowspan="2">Fecha: </td>
+                <td>Alumnos</td>
+            </tr>
+            <tr align="center">
+                <td>24/30</td>
+            </tr>
+        </table>
+
+        <ol>
+            <a href="https://frro.cvg.utn.edu.ar/"><li>Enunciado del examen</li></a>
+            <a href="https://frro.cvg.utn.edu.ar/" target="_blank"><li>Resolucion</li></a>
+        </ol>
+
+        <table>
+            <form action="mailto:x@x.com">
+                <tr>
+                    <td align="right"><b>Email: </b></td>
+                    <td align="left"><input type="text" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td align="right" style="vertical-align: top"><b>Consulta: </b></td>
+                    <td align="left"><input type="text" id="consultabox" name="email"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" id="submit-button" value="ENVIAR">
+                        <input type="reset" id="reset-button" value="BORRAR"></td>
+                </tr>
+            </form>
+        </table>
+
+        <h3>
+            <p align="left">
+                <font size="3"><b>Enunciado del examen</b></font>
+            </p>
+        </h3>
+
+        <span>
+            <p>Ejercicio 1: ..................................<br>
+                .....................................................</p>
+            <p>Ejercicio 2: ..................................<br>
+                .....................................................</p>
+        </span>
+
+        <adress>
+            Para mas informacion, dirigirse a <a href="mailto:contacto@xx.com">contacto@xx.com</a>
+        </adress>
+
+        <script>
+            var date = document.lastModified
+            document.getElementById("fecha-mod").innerHTML = "Fecha : " + date;
+        </script>
+
+        <!--
+        <form action="mailto:x@x.com">
+            <label for="email">E-mail: </label>
+            <input type="text" id="email" name="email"> <br>
+            <label for="consulta">Consulta: </label>
+            <input type="text" id="consultabox" name="consulta"> <br>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="BORRAR"> <br>
+        </form>
+        -->
+    </body>
+</html>

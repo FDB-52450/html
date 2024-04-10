@@ -1,0 +1,18 @@
+1.1) Las principales ventajas de HTML5 son:
++ Es gratuito, no requiere de ningun software costoso para poder programar en el mismo.
++ El codigo es mas facil de organizar gracias a la introduccion de nuevas etiquetas como <header>, que
+permiten distinguir entre etiquetas y contenido de la pagina.
++ Casi todos los navegadores mas modernos y populares, como Firefox, Chrome, Safari y Opera, soportan
+la visualizacion de paginas en HTML5.
++ Posee un mejor almacenamiento local que permite, entre varias cosas, mejorar la seguridad de la informacion
+del usuario y proveer tiempos de respuesta mas rapido mediante el use de cache.
++ Es compatible con navegadores mobiles, permitiendo la adaptacion del diseño de la misma desde el documento
+de HTML5 mismo o mediante un framework.
+
+(El 1.2 y el 1.3 no estan resueltos pues son consignas iguales/muy similares a la del 1.1)
+
+2a) El elemento de tipo audio puede utilizar los siguientes formatos: .mp3, .wav y .ogg.
+3a) El elemento de tipo video puede utilizar los siguientes formatos: .mp4, .webM y .ogg.
+
+(Cabe aclarar que tanto para los elementos de tipo audio como los de tipo video, es posible que algunos
+navegadores no den soporte para uno o mas de los formatos listados)

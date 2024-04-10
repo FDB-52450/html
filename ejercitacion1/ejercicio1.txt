@@ -1,0 +1,21 @@
+1) Es un lenguaje de marcado, que define una estructura básica y un código (denominado código HTML) para la 
+definición de contenido de una página web, como texto e imágenes. El mismo fue creado en los años 90s,
+habiendo tenido 6 grandes versiones a lo largo de su historia: HTML1.0, HTML2.0, HTML3.2, HTML4.01, XHTML
+y HTML5, su última versión.
+
+2) Los cuatros principios básicos de accesibilidad que el W3C recomiendan para una página web son: 
++ Perceptible (La interfaz y los contenidos de la página deben ser accesibles por todos sus usuarios)
++ Operable (Las formas de realizar una acción o buscar un contenido deben ser claras y múltiples)
++ Comprensible (Su funcionamiento debe ser predecibles, y debe ser legible para todos sus usuarios)
++ Robusta (La misma debe ser compatible en varios navegadores, sistemas operativos y dispositivos)
+
+3) Un elemento queda desaprobado cuando aquel ha quedado anticuado por la presencia de estructuras nuevas,
+mientras que un elemento queda obsoleto cuando no hay garantía de soporte por parte de un agente de usuario.
+
+4) El DTD (Declaración de Tipo de Documento) es un declaración del tipo de documento utilizado, la cual
+es leída por los navegadores web para poder visualizar de forma correcta la página. En HTML4.01, los DTDs
+pueden ser de tipo strict, transitional o frameset.
+
+5) Un metadato es un tipo de dato para describir una página web al navegador web; en HTML, se especifican
+mediante el elemento <meta> y mediante los atributos name/http-equiv (nombre del dato/encabezado de http)
+y content (contenido del metadato).

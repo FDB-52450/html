@@ -1,0 +1,79 @@
+3a) 
++ El primer segmento es un texto con un hipervinculo a la pagina de google.
++ El segundo segmento es el mismo que el primero, pero abre la pagina en una nueva pestaña
++ El tercer segmento posee atributos extras que dan mas informacion, pero no funciona debido a que el
+link esta mal tipeado.
++ El cuarto segmento es un texto con un hipervinculo que lleva al usuario a la parte mas arriba de la
+pagina.
++ El quinto segmento no funciona pues "#arriba" no es un parametro valido para el atributo href.
++ El sexto segmento no funciona ya que no tiene texto, por lo que no se puede clickear.
+
+b)
++ El primer segmento es una imagen y un texto con un hipervinculo, dentro de un elemento <p>.
++ El segundo segmento es igual al primero, pero la imagen tiene el hipervinculo y el texto no.
++ El tercer segmento es igual al primero, pero el hipervinculo abarca el texto y la imagen.
++ El cuarto segmento es igual al tercero, pero la imagen y el texto tienen hipervinculos distintos.
+
+
+c)
++ El primer segmento es una lista no ordenada (ul) con 3 items.
++ El segundo segmento es una lista ordenada (ol) con 3 items.
++ El tercer segmento es un conjunto de tres listas ordenadas, cada una con un item.
++ El cuarto segmento es un parrafo dentro de una cita que esta formateado para parecer como una lista.
+
+d)
++ El primer segmento es un tabla con dos columnas, dos filas normales y una fila de encabezado (th).
++ El segundo segmento es un tabla con dos columnas y tres filas normales, pero la primera fila esta
+formateada de tal manera que parece una fila de encabezado.
+
+e)
++ El primer segmento es una tabla con tres columnas, dos filas normales y un "titulo" (caption)
++ El segundo segmento es una tabla con dos columnas y tres filas normales, pero la primera fila esta
+formateada de tal manera que parece un "titulo" (caption).
+
+f)
++ El primer segmento es igual al segundo segmento del 3e, pero la celda en la primera columna y segunda
+fila tiene una altura de 2 celdas.
++ El primer segmento es igual al segundo segmento del 3e, pero la celda en la primera columna y segunda
+fila tiene un ancho de 2 celdas.
+
+g)
++ El primer segmento es una tabla con dos columnas y tres filas, pero la celda de la primera columna y
+primera fila tiene un ancho de 2 celdas (en realidad tiene parametro de ancho de 3 celdas, pero la tabla 
+no tiene mas de dos columnas) y la celda de la primera columna y segunda fila tiene una altura de 2 celdas 
+(tambien tiene un ancho de 2 celdas, pero este parametro no funciona pues ocuparia el lugar de una celda ya
+existente)
++ El segundo segmento es una tabla igual a la del primer segmento, pero no tiene ni "cellpadding" ni
+"cellspacing" (tampoco tiene el parametro de ancho de 3 celdas en la primera celda ni el parametro de 
+ancho de 2 celdas en la segunda celda)
+
+h)
++ El primer segmento es un formulario, contenido en un rectangulo (debido al elemento <fieldset>) que
+posee dos campos: uno de usuario de tipo texto; y otro de contraseña de tipo password; ambos tienen como
+texto predeterminado la palabra "xxx" Al apretar en el boton de id = boton1, la informacion del formulario 
+se enviara al documento especificado en el atributo action.
++ El segundo segmento tambien es un formulario, pero no esta contenido dentro de un rectangulo (no tiene
+el elemento <fieldset>), no tiene texto predeterminado en ninguno de los dos campos y el atributo action
+esta vacio (la informacion se envia al mismo documento donde esta el usuario)
++ El tercer segmento es bastante similar al primer segmento, solo que el atributo action esta definido como
+un mailto (al enviar el formulario, se abrira una pestaña para enviar un mail); sin embargo, este mismo no
+funciona pues el boton de enviar es de type = "reset" (se borra la informacion al apretarlo)
+
+i)
++ El primer segmento es un elemento <label> que contiene un texto y un elemento <button>, el cual posee
+dentro de si mismo un texto y una imagen.
++ El segundo elemento es similar al primero, solo que utiliza un elemento <input> de tipo "button" en vez 
+de un elemento <button> para crear un boton. La primera diferencia es que el elemento <button> tiene una
+funcionalidad predeterminada (subir), mientras que el elemento <input> no la tiene.
+
+j)
++ El primer segmento y el segundo son iguales, excepto por una diferencia: en el primer segmento ambos
+elementos de tipo <label> poseen el mismo nombre como atributo, mientras que en el segundo cada uno tiene 
+su propio nombre. El atributo name hace referencia al nombre asociado al dato que se envia, por lo que
+en el primer segmento solo se puede elegir uno de los "labels", mientras que en segundo se pueden elegir
+ambos.
+
+k)
++ El primer segmento y el segundo son casi iguales, excepto que el segundo segmento posee el atributo
+multiple; debido a esto, el segundo segmento permite elegir multiples opciones si se mantiene presionada
+la tecla ctrl, mientras que el primero solo permite elegir una.
