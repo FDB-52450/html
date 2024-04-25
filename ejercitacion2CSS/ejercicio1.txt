@@ -1,0 +1,30 @@
+1) CCS (Cascade Style Sheet) es una tecnologia complementaria a HTML y XML que permite modificar y 
+controlar la apariencia de una pagina web y sus elementos, como el tamaño, color, fuentes, etc.
+
+2) Toda regla esta compuesta por un selector (elemento/identificador/clase/*) y por una declaracion, la
+cual es un conjunto de distintos atributos aplicables al selector junto con un valor. Por ejemplo:
+h1 {color: red; background-color: blue;}
+
+3) Se puede dar estilo a un documento de las siguientes maneras:
++ Inline: Se aplica el estilo a un unico elemento mediante el atributo "style"
++ Interna: Se aplica el estilo a multiples elementos mediante un elemento <style> dentro del documento.
++ Externa: Se aplcia el estilo a multiple elementos mediante un elemento <link> con un link a un archivo
+CSS externo al documento.
+
+4) Los tipos de selectores mas utilizados son:
++ Elementos: h1 {color: red;}
++ Identificadores: #titulo {color: red;}
++ Clases: .encabezado {color: red;}
+
+5) Un pseudo-clase se utiliza para personalizar la apariencia de un elemento en un estado especial, como
+cuando se ubica el mouse sobre el mismo o cuando se clickea. Las pseudo-clases mas usadas en links son:
++ a:visited (cuando el link ya fue visitado anteriormente)
++ a:hover (cuando el mouse esta arriba del link)
++ a:active (cuando el link esta activo)
+
+6) La herencia es una propiedad que le permite a un elemento "copiar" cualquier atributo que posea su 
+pariente (el elemento que lo contiene); el formato para heredar un atributo es: 
+h1 {nombreAtributo: inherit;}
+
+7) El proceso en cascada consiste en que el formato final (la apariencia) de cada elemento dependera
+de la combinación de todas las propiedades que afectan al elemento.

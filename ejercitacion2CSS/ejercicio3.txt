@@ -1,0 +1,19 @@
+En el código mostrado en el ejercicio, se hacen tres reglas de tipo de selector "class": p.quitar, 
+*.desarrollo y .importante:
+
++ La regla p.quitar establece en su selector que todos los elementos de tipo <p> (párrafos) con clase de 
+valor igual a "quitar" poseen los siguientes atributos: color de elemento (color) de tipo "red".
+
++ La regla *.desarrollo establece en su selector que cualquier elemento con clase de valor igual a 
+"desarrollo" poseen los siguientes atributos: tamaño de la letra de la fuente (font-size) de 8px.
+
++ La regla .importante establece en su selector que cualquier elemento con clase de valor igual a 
+"desarrollo" poseen los siguientes atributos: tamaño de la letra de la fuente (font-size) de 20px.
+
+Aparte de los efectos que tienen las reglas en cada elemento (que ya fueron definidos), cabe destacar
+que el tercer elemento de tipo <p> no tiene ningún estilo especifico pues no tiene ninguna clase como 
+atributo; y que el último elemento de tipo <p> tiene dos clases definidas en sus atributos, por lo que
+se aplican las dos reglas definidas por las dos clases en el elemento.
+
+(Aclaración: *. y . significan lo mismo, pues ambos aplican el estilo definido en cualquier elemento
+que tenga la id designada)

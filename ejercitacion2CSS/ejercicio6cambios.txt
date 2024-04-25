@@ -1,0 +1,2 @@
++ Cambiado el id del elemento <h1> de "titulo" a "encabezado".
++ Agregado al último elemento <div> el atributo "class" con un valor de "estilopie".

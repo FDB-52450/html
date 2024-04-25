@@ -1,0 +1,17 @@
+En el código mostrado en el ejercicio, se hacen tres reglas de tipo de selector "id": p#normal, 
+*#destacado y #distinto:
+
++ La regla p#normal establece en su selector que todos los elementos de tipo <p> (párrafos) con id de valor 
+igual a "normal" poseen los siguientes atributos: fuente (font-family) Arial Helvética, tamaño de la letra
+de la fuente (font-size) de 11px y grueso de la letra de la fuente (font-weight) de tipo "bold".
+
++ La regla *#destacado establece en su selector que cualquier elemento con id de valor igual a "destacado" 
+poseen los siguientes atributos: un estilo de encuadrado (border-style) de tipo "solid", con color 
+(border-color) de tipo "blue" y un ancho (border-width) de 2px.
+
++ La regla #distinto establece en su selector que cualquier elemento con id de valor igual a "distinto"
+poseen los siguientes atributos: un color de fondo (background-color) de tipo hex con valor "#9EC7EB" y 
+un color de elemento (color) de tipo "red".
+
+(Aclaración: *# y # significan lo mismo, pues ambos aplican el estilo definido en cualquier elemento
+que tenga la id designada)

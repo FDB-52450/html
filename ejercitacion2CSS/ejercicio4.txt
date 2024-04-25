@@ -1,0 +1,16 @@
+Cabe aclarar que las reglas declaradas en el <style> pueden ser sobrescritas por otras reglas, ya sea 
+aquellas declaradas en el <style> o aquellas declaradas en el atributo "style" de cada elemento. Según lo
+observado, podemos determinar que una regla es sobrescrita por otra si es la que sobrescribe es mas 
+"especifica" (por ejemplo, una regla hecha para el elemento <p> sobrescribirá una regla para el elemento
+<body>)
+
+Ambos segmentos de código poseen un párrafo y una tabla, la cual contiene dentro de sí misma un link. 
+
+En el primer segmento de código, el párrafo tiene un atributo class de tipo "contenido", el cual 
+sobrescribe el font-size establecido por la regla del elemento <p> (de 10px a 14px) y le da a el párrafo 
+un grosor de tipo "bold".
+
+En el segundo segmento de código, el <body> del documento tiene un atributo class de tipo "contenido", por
+lo cual todo elemento contenido dentro del <body> tendrá los atributos especificados en la declaración de 
+la regla; sobrescribiendo los establecidos por la regla *. Sin embargo, los atributos de la regla del
+elemento <p> sobrescriben aquellos de la clase "contenido"
