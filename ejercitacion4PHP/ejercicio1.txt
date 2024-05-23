@@ -1,0 +1,31 @@
+1) El codigo tiene 7 variables:
++ a, de tipo boolean.
++ b, de tipo string.
++ c, de tipo string.
++ d, de tipo integer.
++ f, de tipo integer.
++ g, de tipo integer.
++ i, de tipo integer.
+Cabe destacar que el tipo de las variables f, g y i y sus valores dependen de los valores y tipos de las
+variables d, f y d respectivamente.
+
+2) El codigo tiene los siguientes operadores:
++ (*), el cual corresponde a la multiplicacion.
++ (++), el cual le suma al valor de una variable un uno.
++ (+=), el cual le suma al valor de una variable un valor especificado.
++ ($d = $a ? ++$d : $d*3;), el cual es un operador terciario que pregunta si el valor de a es TRUE 
+(boolean). Dependiendo del resultado, se le asigna un nuevo valor a d:
+  - En caso de que a sea TRUE, se le suma un 1 al valor de d.
+  - En caso de que a no sea TRUE, se multiplica el valor de d por tres.
+
+3) El codigo tiene 4 funciones:
++ gettype($var), que toma como parametro una variable y retorna el tipo de la misma.
++ is_string($var), que toma como parametro una variable y evalua si la misma es un string, retornando true o 
+false.
++ is_int($var), que toma como parametro una variable y evalua si la misma es un int, retornando true o false.
++ double($var), que toma como parametro una variable int y retorna el doble de su valor.
+
+4) El codigo utiliza como estructuras de control el if (evalua si una condicion es verdadera, y ejecuta
+codigo a base del resultado) y el return (devuelve un valor)
+
+5) La salida del programa es: "booleanstringstringinteger1xyzxyz184444" (sin comillas)

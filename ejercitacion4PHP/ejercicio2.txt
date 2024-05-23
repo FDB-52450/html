@@ -1,0 +1,7 @@
+A) Los tres segmentos son equivalentes ya que muestran el mismo resultado, aunque cabe destacar que el
+tercer segmento empieza a contar desde 0 mientras que los otros dos empiezan a contar desde el 1.
+
+B) Los cuatro segmentos son equivalentes.
+
+C) Los dos segmentos son equivalentes, aunque es posible que el switch sea mas rapido por unos 
+microsegundos.

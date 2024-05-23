@@ -1,0 +1,4 @@
+A) La salida del codigo es: "bar1" (sin comillas) (el true del boolean, al ser pasado a string, es
+interpretado como "1")
+B) La salida del codigo es: "5942" (sin comillas)
+C) El codigo no tiene salida, pues la array $matriz en la llave "x" no tiene ningun valor asignado.

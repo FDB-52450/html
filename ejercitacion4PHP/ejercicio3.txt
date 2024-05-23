@@ -1,0 +1,7 @@
+A) El siguiente fragmento de codigo se utiliza para crear una tabla de longitud equivalente al 90% de la
+pantalla y con un grosor de border de 1 pixel. La misma tiene 2 columnas y 5 filas, con celdas vacias,
+creadas mediante dos loops de tipo for.
+
+B) El siguiente fragmento de codigo se utiliza para crear un formulario con un campo de texto para la edad
+del usuario; cuando este formulario es enviado, la segunda parte del codigo php (despues del codigo del
+formulario) evalua si la edad ingresada es mayor o menor a 18, e imprime texto a base del resultado.

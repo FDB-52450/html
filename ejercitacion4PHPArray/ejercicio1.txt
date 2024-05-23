@@ -1,0 +1,3 @@
+Ambos segmentos de codigo son equivalentes, pues ambos crean un array y asignas los mismos valores a las
+mismas llaves del array. En este caso, cuando se le asigna un valor a $array[] la llave correspondiente
+sera una de tipo numerica, siendo la mas pequeña que aun no haya sido usada (en este caso, 0)

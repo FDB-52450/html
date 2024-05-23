@@ -1,0 +1,11 @@
+El codigo produce la siguiente salida:
+"Warning: Undefined variable $flor in (ruta de archivo) on line 3
+
+Warning: Undefined variable $color in (ruta de archivo) on line 3
+El El clavel blanco"
+
+Esto se debe a que, previo a la inclusion del archivo datos.php, las variables $flor y $color no estan
+definidas en el codigo del php principal, por lo que el php principal intenta acceder a sus valores y 
+tira un error al no poder acceder a los mismos.
+Despues de la inclusion del archivo datos.php, el cual provee valores para $flor y $color, el php
+principal puede ejecutar el segundo echo correctamente.

@@ -1,0 +1,5 @@
+A) La salida del codigo sera la fecha del dia de hoy (obtenida mediante la funcion getdate()) formateada
+en el siguiente orden: hora, minuto, segundo, dia/mes/año.
+
+B) La salida del codigo muestra el resultado de la suma de dos numeros dado a una funcion, en este caso
+5 y 6. La salida esta formateada de la siguiente manera: $num1."+".$num2."=".$suma
