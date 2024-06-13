@@ -1,0 +1,27 @@
+Consulta a una base de datos: Para comenzar la comunicación con un servidor de base de datos MySQL, es
+necesario abrir una conexión a ese servidor. Para inicializar esta conexión, PHP ofrece la función
+[mysqli_connect()]. Todos sus parámetros son opcionales, pero hay tres de ellos que generalmente son 
+necesarios: [$hostName, $nombreUsuario y $contraseña].
+
+Una vez abierta la conexión, se debe seleccionar una base de datos para su uso, mediante la función
+[mysqli_select_db()]. Esta función debe pasar como parámetro [$nombreConexion y $nombreBaseDatos]
+
+La función mysqli_query () se utiliza para [ejecutar una consulta o comando en la base de datos 
+especificada] y requiere como parámetros [$nombreConexion (el nombre de la conexion) y $query 
+(la instruccion a ejecutar)].
+
+La cláusula or die() se utiliza para [capturar el error de la ejecucion de un comando o consulta] y la 
+función mysqli_error () se puede usar para [obtener el ultimo error de la llamada mas reciente.]
+
+Si la función mysqli_query() es exitosa, el conjunto resultante retornado se almacena en una variable, 
+por ejemplo $vResult, y a continuación se puede ejecutar el siguiente código (explicarlo):
+
+[El siguiente codigo crea una tabla a base de los resultados obtenidos de una busqueda. 
+El comando mysqlite_fetch_array() devuelve una fila de la busqueda realizada en una tabla; si no hay mas 
+filas, devuelve FALSE.
+En el codigo el programa crea una fila en la tabla con los valores dados por $fila, siempre y cuando el
+valor de fila no sea FALSE; es decir, mientras que la funcion mysqlite_fetch_array pueda retornar una fila.
+Al final, se utiliza mysqli_free_result() para liberar la memoria ocupada por el resultado obtenido 
+previamente y se cierra la conexion a la base de datos mediante el mysqli_close()]
+
+Nota: Las respuestas estan marcadas entre corchetes -> [respuesta]

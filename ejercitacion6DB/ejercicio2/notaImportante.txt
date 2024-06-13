@@ -1,0 +1,2 @@
+Por alguna razon, muchas veces el programa me tira un error de que la base de datos no existe y que existe
+al mismo tiempo.
